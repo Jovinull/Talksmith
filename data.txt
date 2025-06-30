@@ -1,0 +1,328 @@
+Matemática é uma área do conhecimento que inclui os tópicos dos números, fórmulas e estruturas relacionadas, formas e os espaços em que estão contidos, e quantidades e suas mudanças.  
+Esses tópicos são representados na matemática moderna com as principais subdisciplinas da teoria dos números, álgebra, geometria e análise, respectivamente.  
+Não há consenso entre os matemáticos sobre uma definição comum para a disciplina acadêmica que estudam.  
+Grande parte da atividade matemática envolve a descoberta de propriedades de objetos abstratos e o uso da razão pura para prová-las.  
+Estes objetos consistem em abstrações da natureza ou — segundo a matemática moderna — entidades que são estipuladas por certas propriedades, chamadas axiomas.  
+Uma prova matemática consiste em uma sucessão de aplicações de regras dedutivas a resultados já estabelecidos.  
+Estes resultados incluem teoremas previamente provados, axiomas e, no caso de abstração da natureza, algumas propriedades básicas que são consideradas pontos de partida da teoria em consideração.  
+A matemática é essencial nas ciências naturais, engenharia, medicina, finanças, ciências da computação e ciências sociais.  
+Embora seja amplamente utilizada para modelar fenômenos, as verdades fundamentais da matemática são independentes de qualquer experimentação científica.  
+Algumas áreas da matemática, como estatística e teoria dos jogos, são desenvolvidas em estreita correlação com suas aplicações e, portanto, são frequentemente agrupadas na matemática aplicada.  
+Outros campos de estudo são desenvolvidos independentemente de qualquer aplicação, mas muitas vezes encontram aplicações práticas posteriormente.  
+Historicamente, o conceito de prova e o rigor matemático associado apareceram pela primeira vez na matemática grega, mais notavelmente na obra Os Elementos de Euclides.  
+Desde o seu início, a matemática foi dividida principalmente em geometria e aritmética, até os séculos XVI e XVII, quando a álgebra e o cálculo infinitesimal foram introduzidos como novos campos.  
+Desde então, a interação entre inovações matemáticas e descobertas científicas levou a um aumento correlacionado no desenvolvimento de ambas.  
+No final do século XIX, a crise fundamental da matemática levou à sistematização do método axiomático, que anunciou um aumento dramático no número de áreas matemáticas e seus campos de aplicação.  
+A palavra matemática vem do grego antigo máthēma e significa "aquilo que se aprende", "aquilo que se conhece", "estudo" e "ciência".  
+A palavra passou a ter o significado mais restrito e técnico de "estudo matemático" mesmo no período clássico.  
+Seu adjetivo é mathēmatikós, que significa "relacionado à aprendizagem" ou "estudioso", e também passou a significar "matemático".  
+Mathēmatikḗ tékhnē significava "a arte matemática".  
+Uma das duas principais escolas de pensamento do pitagorismo era conhecida como mathēmatikoi — que significava "alunos", não "matemáticos".  
+Os pitagóricos foram provavelmente os primeiros a restringir o uso da palavra apenas ao estudo da aritmética e da geometria.  
+Na época de Aristóteles, este significado foi totalmente estabelecido.  
+Em latim até cerca de 1700, o termo matemática tinha como significado mais comum "astrologia".  
+Isto mudou gradualmente para o significado atual entre 1500 e 1800.  
+Essa mudança causou erros de tradução, como no caso de Santo Agostinho, cuja advertência aos mathematici foi erroneamente traduzida como uma condenação aos matemáticos.  
+Antes do Renascimento, a matemática era dividida em aritmética e geometria.  
+Pseudociências como numerologia e astrologia não eram claramente distintas da matemática.  
+Durante o Renascimento, surgiram mais dois campos matemáticos: álgebra e cálculo.  
+A álgebra consiste no estudo e na manipulação de fórmulas.  
+O cálculo, dividido em diferencial e integral, estuda funções contínuas e relações não lineares entre variáveis.  
+Essa divisão em aritmética, geometria, álgebra e cálculo perdurou até o fim do século XIX.  
+Áreas como mecânica celeste e dos sólidos eram estudadas por matemáticos, mas hoje pertencem à física.  
+A combinatória foi estudada ao longo da história, mas só se tornou uma área separada da matemática no século XVII.  
+No fim do século XIX, a crise da matemática e o método axiomático causaram uma explosão de novas áreas.  
+A Classificação de Disciplinas de Matemática de 2020 lista 63 áreas de primeiro nível.  
+Algumas delas mantêm a divisão antiga, como teoria dos números e geometria.  
+Álgebra e cálculo não aparecem como áreas de primeiro nível, pois se subdividem em muitas especialidades.  
+Outras áreas surgiram no século XX ou foram incorporadas à matemática, como a lógica e os fundamentos matemáticos.
+A teoria dos números teve início com as primeiras manipulações dos números naturais e posteriormente expandiu-se para números inteiros e números racionais.  
+Ela já foi chamada de aritmética, mas atualmente este termo é usado principalmente para se referir aos cálculos numéricos.  
+A teoria dos números remonta à antiga Babilônia e provavelmente à China Antiga.  
+Dois proeminentes teóricos deste campo foram os gregos Euclides e Diofanto de Alexandria.  
+O estudo moderno da teoria dos números é atribuído a Pierre de Fermat e Leonhard Euler, mas se concretizou com Adrien-Marie Legendre e Carl Friedrich Gauss.  
+O Último Teorema de Fermat foi conjecturado em 1637 e provado apenas em 1994 por Andrew Wiles, usando ferramentas como geometria algébrica e álgebra homológica.  
+A Conjectura de Goldbach, de 1742, afirma que todo número inteiro par maior que 2 é a soma de dois números primos, mas permanece sem comprovação.  
+A teoria dos números inclui áreas como: teoria analítica dos números, teoria algébrica dos números, geometria dos números, equações diofantinas e teoria da transcendência.
+A geometria é um dos ramos mais antigos da matemática e começou com receitas empíricas sobre formas como linhas, ângulos e círculos.  
+Essas formas eram usadas principalmente para topografia e arquitetura, mas a geometria se expandiu para muitos subcampos.  
+Os gregos introduziram o conceito de provas, exigindo raciocínio lógico a partir de axiomas e teoremas previamente aceitos.  
+Esse princípio foi sistematizado por Euclides em sua obra "Os Elementos", por volta de 300 a.C.  
+A geometria euclidiana estuda formas e arranjos a partir de retas, planos e círculos no espaço tridimensional.  
+No século XVII, René Descartes introduziu as coordenadas cartesianas, permitindo o uso da álgebra em problemas geométricos.  
+A geometria foi então dividida em geometria sintética e geometria analítica.  
+A geometria analítica permite o estudo de curvas como gráficos de funções e equações polinomiais, originando a geometria algébrica e diferencial.  
+Ela também permite o estudo de espaços euclidianos com mais de três dimensões.  
+No século XIX, surgiram geometrias não euclidianas que não seguem o postulado das paralelas.  
+Isso levou à crise fundamental da matemática e à adoção do método axiomático, permitindo o estudo de diferentes geometrias.  
+As subáreas da geometria incluem:  
+Geometria projetiva, que adiciona pontos impróprios e simplifica relações entre linhas paralelas e secantes.  
+Geometria afim, que estuda propriedades do paralelismo.  
+Geometria diferencial, que estuda curvas e superfícies diferenciáveis.  
+Teoria múltipla, que estuda formas não incorporadas em espaços maiores.  
+Geometria riemanniana, que estuda distâncias em espaços curvos.  
+Geometria algébrica, baseada em polinômios.  
+Topologia, que estuda propriedades mantidas sob deformações contínuas.  
+Topologia algébrica, que usa métodos algébricos em topologia.  
+Geometria discreta, que estuda configurações finitas.  
+Geometria convexa, que estuda conjuntos convexos.  
+Geometria complexa, baseada em números complexos.
+A álgebra é a arte de manipular equações e fórmulas.  
+Diofanto, no século III, e Alcuarismi, no século IX, foram precursores do campo.  
+Diofanto resolvia equações com números naturais usando deduções.  
+Alcuarismi introduziu métodos para transformar equações, como mover termos entre os lados.  
+O termo "álgebra" vem de "al-jabr", usado por Alcuarismi para nomear seu tratado.  
+A álgebra tornou-se independente com François Viète, que introduziu variáveis para representar números desconhecidos.  
+Até o século XIX, o foco era equações lineares e polinomiais de uma variável.  
+Depois, passou-se a usar variáveis para representar matrizes, inteiros modulares e transformações.  
+Isso levou à noção de estruturas algébricas: conjuntos com operações e regras.  
+Esse estudo foi chamado de álgebra moderna ou álgebra abstrata, com destaque para Emmy Noether.  
+Estruturas algébricas incluem:  
+Teoria dos grupos;  
+Teoria de campo;  
+Espaços vetoriais (álgebra linear);  
+Teoria dos anéis;  
+Álgebra comutativa, fundamental na geometria algébrica;  
+Álgebra homológica;  
+Álgebra de Lie e teoria dos Grupos de Lie;  
+Álgebra booliana, usada em lógica computacional.  
+A álgebra universal e a teoria das categorias estudam estruturas algébricas como objetos matemáticos.  
+A teoria das categorias foi criada com a álgebra homológica para estudar objetos como espaços topológicos, originando a topologia algébrica.
+O cálculo, anteriormente chamado de cálculo infinitesimal, foi introduzido independentemente por Newton e Leibniz no século XVII.  
+É fundamentalmente o estudo da relação entre variáveis que dependem umas das outras.  
+No século XVIII, Euler expandiu o cálculo com o conceito de função e diversos outros resultados.  
+Atualmente, “cálculo” refere-se à parte elementar da teoria, enquanto “análise” é usada para áreas mais avançadas.  
+A análise se divide em análise real (com números reais) e análise complexa (com números complexos).  
+Subáreas da análise incluem:  
+Cálculo multivariável;  
+Análise funcional, com variáveis representando funções;  
+Integração, teoria da medida e teoria do potencial, ligadas à teoria das probabilidades em um contínuo;  
+Equações diferenciais ordinárias;  
+Equações diferenciais parciais;  
+Análise numérica, voltada ao cálculo computacional de soluções para equações diferenciais.
+A matemática discreta é o estudo de objetos matemáticos individuais e contáveis.  
+Por trabalhar com objetos discretos, não usa diretamente métodos do cálculo ou da análise.  
+Algoritmos, sua implementação e complexidade, têm papel importante na matemática discreta.  
+Problemas famosos da área incluem o teorema das quatro cores e a conjectura de Kepler, resolvidos no século XX.  
+O problema P versus NP permanece sem solução e tem grande impacto na matemática discreta e na ciência da computação.  
+Áreas da matemática discreta incluem:  
+Combinatória, que trata da contagem de objetos matemáticos com restrições;  
+Teoria dos grafos e hipergrafos;  
+Teoria da codificação, incluindo correção de erros e criptografia;  
+Teoria matróide;  
+Geometria discreta;  
+Distribuições de probabilidade discretas;  
+Teoria dos jogos (especialmente jogos como xadrez e pôquer);  
+Otimização discreta, como programação inteira e programação com restrições.
+A lógica matemática e a teoria dos conjuntos fazem parte da matemática desde o final do século XIX.  
+Antes disso, conjuntos não eram considerados objetos matemáticos e a lógica era campo da filosofia.  
+O estudo de Cantor sobre conjuntos infinitos introduziu diferentes tamanhos de infinito, usando o argumento da diagonalização.  
+Isso causou controvérsia e levou à crise fundamental da matemática.  
+A crise foi resolvida com a formalização axiomática da teoria dos conjuntos.  
+Cada objeto matemático passou a ser definido por propriedades e pelo conjunto ao qual pertence.  
+Exemplo: na aritmética de Peano, os números naturais são definidos por axiomas como “zero é um número” e “cada número tem um sucessor”.  
+Essa abordagem abstrata está incorporada ao formalismo, filosofia fundada por David Hilbert por volta de 1910.  
+A natureza dos objetos definidos é um problema filosófico, geralmente ignorado pelos matemáticos.  
+A abordagem permite tratar lógicas, teoremas e provas como objetos matemáticos, permitindo teoremas sobre eles.  
+Exemplo: os teoremas da incompletude de Gödel mostram que em qualquer sistema formal consistente com números naturais existem verdades não demonstráveis.  
+A lógica intuicionista, liderada por Brouwer, rejeitou a lei do terceiro excluído.  
+Esses debates ampliaram a lógica matemática com áreas como:  
+Teoria dos modelos;  
+Teoria da prova;  
+Teoria dos tipos;  
+Teoria da computabilidade;  
+Teoria da complexidade computacional.  
+Essas áreas influenciaram o design de compiladores, verificação de programas e a ciência da computação.
+A estatística é uma aplicação matemática usada para coletar e processar amostras de dados.  
+Usa procedimentos baseados em métodos matemáticos, especialmente teoria das probabilidades.  
+Estatísticos geram dados por experimentos ou amostragem aleatória, e a análise depende do desenho do estudo.  
+A análise de dados observacionais utiliza modelos estatísticos e inferência estatística.  
+Os modelos e previsões devem ser testados com novos dados.  
+A teoria estatística estuda problemas de decisão como minimizar riscos em ações estatísticas.  
+Exemplos: estimativa de parâmetros, testes de hipótese e seleção de algoritmos.  
+Esses problemas são formulados como minimização de uma função de perda sob restrições.  
+A pesquisa estatística busca, por exemplo, estimar a média de uma população ao menor custo possível.  
+Por isso, a teoria estatística se sobrepõe à pesquisa operacional, teoria do controle e economia matemática.
+A matemática computacional estuda problemas matemáticos grandes demais para resolução manual.  
+A análise numérica busca métodos para resolver problemas de análise usando teoria da aproximação.  
+A área inclui estudo de aproximação, discretização e controle de erros de arredondamento.
+A história da matemática é uma série crescente de abstrações.  
+A primeira abstração, compartilhada por muitos animais, foi a dos números: perceber que duas maçãs e duas laranjas têm algo em comum — o número dois.  
+Povos pré-históricos sabiam contar objetos físicos e quantidades abstratas, como tempo.  
+A matemática mais complexa surge por volta de 3000 a.C. com babilônios e egípcios usando aritmética, álgebra e geometria para impostos, construção e astronomia.  
+Textos da Mesopotâmia e Egito datam de 2000 a.C. a 1800 a.C.  
+O teorema de Pitágoras é um dos conceitos mais antigos e difundidos.  
+A aritmética elementar aparece na matemática babilônica.  
+Eles usavam sistema posicional e numeração sexagesimal, ainda usado para ângulos e tempo.  
+A matemática grega emergiu no século VI a.C. como disciplina própria.  
+Por volta de 300 a.C., Euclides organizou o conhecimento matemático com o método axiomático.  
+Sua obra "Os Elementos" é um dos livros mais influentes da história.  
+Arquimedes é considerado o maior matemático da Antiguidade.  
+Ele desenvolveu fórmulas para áreas e volumes, e métodos semelhantes ao cálculo moderno.  
+A matemática grega também desenvolveu seções cônicas, trigonometria e álgebra.  
+O sistema de numeração hindu-arábico surgiu na Índia no primeiro milênio e se espalhou pelo mundo via matemática islâmica.  
+A Índia também desenvolveu seno, cosseno e séries infinitas.
+Durante a Idade de Ouro Islâmica, séculos IX e X, a álgebra foi desenvolvida.  
+Houve avanços na trigonometria esférica e a criação do ponto decimal.  
+Matemáticos persas como Alcuarismi, Omar Caiam e Xarafadim de Tus foram figuras-chave.  
+Textos árabes e gregos foram traduzidos para o latim na Idade Média.  
+Na Idade Moderna, François Viète introduziu variáveis e notação simbólica.  
+John Napier criou os logaritmos, úteis para astronomia e navegação.  
+René Descartes unificou álgebra e geometria com as coordenadas cartesianas.  
+Newton e Leibniz desenvolveram o cálculo.  
+Leonhard Euler unificou essas ideias no século XVIII.  
+No século XIX, Carl Gauss contribuiu com álgebra, análise, geometria, teoria dos números e estatística.  
+No século XX, Kurt Gödel publicou os teoremas da incompletude.  
+A matemática continua a evoluir com descobertas constantes.  
+O banco Mathematical Reviews já possui mais de 1,9 milhão de publicações desde 1940.
+A notação matemática representa conceitos de forma concisa e precisa.  
+Ela usa símbolos para operações, números, relações e objetos matemáticos.  
+Variáveis são geralmente letras latinas ou gregas.  
+Símbolos como +, ×, ∫, = e < têm significados específicos.  
+A notação segue regras rigorosas de composição.  
+A terminologia matemática fornece base comum para comunicação.  
+Um axioma é considerado verdadeiro sem prova.  
+Uma conjectura é uma afirmação ainda não provada.  
+Um teorema é uma afirmação provada.  
+Um lema é um teorema auxiliar.  
+Um corolário é uma consequência direta de um teorema.  
+Termos como polinômio e homeomorfismo são neologismos.  
+Outros termos, como “ou”, têm significados distintos da linguagem comum.  
+Alguns termos comuns são usados com significados completamente diferentes.
+A matemática é usada para modelar fenômenos nas ciências.  
+A precisão das previsões depende do modelo, não da matemática.  
+Modelos incorretos resultam em previsões imprecisas.  
+Exemplo: a órbita de Mercúrio foi explicada pela relatividade geral de Einstein.  
+Debate-se se a matemática é uma ciência.  
+Ela compartilha com as ciências a característica de ser falsificável.  
+Matemáticos usam experimentação, como cálculos e visualizações, para formular conjecturas.  
+Gauss afirmou que obtinha teoremas por "experimentação sistemática".  
+Contudo, a matemática não se baseia em evidência empírica, diferindo das ciências físicas.
+Até o século XIX, matemática pura e aplicada não eram distintas.  
+Números surgiram da necessidade de contagem, geometria da topografia e astronomia.  
+Newton criou o cálculo para explicar o movimento dos planetas.  
+Muitos cientistas eram matemáticos e vice-versa.  
+Na Grécia Antiga, a matemática pura já existia como exceção.  
+A fatoração de inteiros, estudada por Euclides, tornou-se útil no criptossistema RSA.  
+No século XIX, matemáticos como Weierstrass e Dedekind focaram na matemática pura.  
+Isso levou à separação entre matemática pura e aplicada.  
+Após a Segunda Guerra Mundial, a matemática aplicada ganhou força.  
+Teorias aplicadas revelaram interesse também para a matemática pura.  
+Exemplo: a teoria das distribuições de Schwartz nasceu na física, mas virou ferramenta matemática.  
+Outro exemplo: a decidibilidade da teoria dos reais de Tarski gerou algoritmos com alta complexidade.  
+Collins criou a decomposição algébrica cilíndrica para torná-la computacionalmente viável.  
+Hoje, a divisão entre matemática pura e aplicada depende mais dos objetivos do que de áreas distintas.
+A eficácia irracional da matemática foi nomeada por Eugene Wigner.  
+Ela descreve como teorias puras têm aplicações imprevistas.  
+Exemplo: a fatoração de primos usada em criptografia moderna.  
+Outro exemplo: as elipses, estudadas como seções cônicas, descrevem órbitas planetárias.  
+A geometria não euclidiana e variedades pareciam puras, mas foram usadas na relatividade.  
+O espaço-tempo de Einstein é uma variedade curva de quatro dimensões.  
+A matemática também impulsiona descobertas físicas.  
+Exemplo: positron e bárion Ω⁻ foram previstos por equações antes de sua descoberta experimental.
+A matemática e a física se influenciaram mutuamente ao longo da história moderna.  
+A física moderna utiliza amplamente a matemática e também inspira desenvolvimentos matemáticos.
+A ascensão da computação no século XX criou uma nova ciência: a ciência da computação.  
+A ciência da computação teórica é essencialmente matemática.  
+A informática também é usada para descobrir novos resultados, prática chamada de matemática experimental.  
+Exemplo: o teorema das quatro cores foi comprovado com ajuda de computador em 1976.  
+Em 1998, a conjectura de Kepler foi parcialmente comprovada por computador, com prova formal finalizada em 2015.  
+O problema P versus NP é um dos maiores desafios da ciência da computação teórica.
+A biologia usa intensamente a matemática, especialmente a probabilidade.  
+Áreas como ecologia e neurobiologia usam modelagem matemática.  
+A ecologia modela dinâmica populacional, poluição, mudanças climáticas e interações predador-presa.  
+Modelos como as equações de Lotka-Volterra representam essas dinâmicas.  
+A validação dos modelos é essencial, especialmente quando influenciam decisões políticas.  
+Modelos conflitantes podem ser usados por nações para justificar interesses distintos.
+As ciências sociais utilizam probabilidade, estatística e equações diferenciais.  
+Essas ferramentas são aplicadas em linguística, economia, sociologia e psicologia.  
+A economia matemática assume um ator racional que busca maximizar seu interesse próprio com informação perfeita.  
+Esse modelo é criticado por ignorar limitações humanas, erros e valores sociais como justiça e altruísmo.  
+No século XX, tentativas foram feitas para modelar movimentos históricos com fórmulas.  
+Exemplo: ciclo Kondratiev de 50 anos para crises econômicas.  
+A cliodinâmica busca modelar fenômenos históricos usando métodos matemáticos.  
+Contudo, o uso inadequado da matemática nas ciências sociais foi criticado por Sokal e Bricmont.
+Historicamente, muitos matemáticos também foram astrólogos.  
+Na Idade Média, astrologia era considerada uma ciência matemática.  
+Hoje, a astrologia é considerada uma pseudociência, sem validade científica.
+A relação entre matemática e realidade tem gerado debates filosóficos desde Pitágoras.  
+Platão defendia que os objetos matemáticos têm existência independente e eterna.  
+A visão de que objetos matemáticos existem por si mesmos é chamada platonismo.  
+Muitos matemáticos modernos agem como platônicos, tratando conceitos como reais.  
+Armand Borel argumentou que a linguagem matemática permite consenso e sensação de objetividade.  
+Ainda assim, o platonismo não explica por completo a eficácia irracional da matemática.
+Não existe um consenso universal sobre o que é matemática.  
+Muitos matemáticos não se preocupam com definições formais.  
+Alguns dizem que "matemática é o que os matemáticos fazem".  
+Há forte consenso interno sobre o que é ou não matemática.  
+Aristóteles definiu matemática como “a ciência da quantidade”.  
+No século XIX, novas definições surgiram com o estudo de objetos abstratos como conjuntos infinitos.  
+Outra definição considera matemática como a ciência que prova teoremas logicamente.  
+Há também a visão de que a matemática é uma extensão da teoria axiomática dos conjuntos.
+Rigor é essencial na matemática.  
+Definições devem ser precisas e provas, puramente dedutivas, sem apoio empírico ou intuição.  
+O rigor matemático exige padrões mais elevados do que outras ciências.  
+Provas podem ser extremamente longas, como o teorema de Feit-Thompson com 255 páginas.  
+Provas assistidas por computador ampliaram a complexidade e extensão das demonstrações.  
+A filosofia da prova moderna é quase empirista, embora não infalível.  
+O rigor tem raízes na Grécia Antiga, onde lógica e dedução eram valorizadas.  
+No século XVI, a notação simbólica aprimorou as provas matemáticas.  
+No século XVIII, o ensino da matemática levou a maior reflexão sobre fundamentos e rigor.  
+No fim do século XIX, paradoxos como o de Russell exigiram redefinições precisas com axiomas.  
+Hoje, ou uma prova está correta ou está errada — “prova rigorosa” é um pleonasmo.  
+O conceito de rigor ainda é útil para ensinar iniciantes o que é uma prova matemática.  
+A aceitação de uma prova pela comunidade, com o tempo, a torna confiável.
+A matemática atravessa fronteiras culturais e períodos históricos.  
+Como atividade humana, possui um aspecto social: educação, profissão, reconhecimento e popularização.  
+Na educação, ela é parte central do currículo escolar e elemento-chave do grupo STEM.  
+Matemáticos profissionais atuam como professores, estatísticos, atuários, analistas financeiros, economistas, contadores e consultores.  
+Há evidências de ensino de matemática na Babilônia por volta de 2000 a.C.  
+Outros registros vêm do Antigo Oriente Próximo e do mundo greco-romano.  
+O livro didático mais antigo é o Papiro de Rhind, do Egito Antigo, por volta de 1650 a.C.  
+Na Índia, o ensino era oral e memorizado desde o período védico.  
+Na China Imperial, a matemática fazia parte do currículo dos concursos públicos.  
+Na Europa medieval, o ensino era feito por escolas religiosas, como parte do Quadrívio.  
+Escolas jesuítas formalizaram a pedagogia matemática nos séculos XVI e XVII.  
+O ensino avançado só floresceu no século XIX, especialmente na França e Alemanha.  
+O primeiro periódico sobre ensino da matemática foi “L’Enseignement Mathématique”, publicado em 1899.  
+A matemática tornou-se disciplina central nos sistemas educacionais por suas aplicações militares.  
+Atualmente, quase todos os países incluem matemática em seus currículos.  
+Interesse profissional em matemática está associado a capacidades e expectativas positivas.  
+Apoio de professores, pais e colegas influencia o gosto por matemática.  
+A ansiedade matemática afeta o desempenho e pode ser causada por atitudes e estereótipos.  
+O tratamento pode incluir mudanças pedagógicas, apoio psicológico e orientação personalizada.
+O rigor é essencial, mas a criatividade também é parte vital da matemática.  
+Muitos teoremas importantes surgem de ideias criativas que superam desafios antigos.  
+O teorema de Apéry foi inicialmente só esboçado, com a prova formal completada depois.  
+Matemáticos também veem a matemática como um jogo — campo chamado matemática recreativa.  
+Há um valor estético na matemática: elegância, simplicidade, simetria, generalidade.  
+G. H. Hardy afirmou que a beleza justifica a matemática pura.  
+Outros critérios estéticos incluem inevitabilidade, surpresa e profundidade.  
+Paul Erdős falou ironicamente sobre “O Livro” com as mais belas provas.  
+A obra “Proofs from THE BOOK” reúne provas notáveis como a de Euclides (infinitos primos) e a FFT.  
+Alguns defendem que a matemática é arte, outros que é ciência — debate entre criação e descoberta.
+A matemática tem impacto na arte e na cultura.  
+Notas musicais agradáveis têm frequências com proporções matemáticas simples.  
+Exemplo: uma oitava dobra a frequência, uma quinta justa a multiplica por 3/2.  
+Simetria é considerada bela — humanos e animais são atraídos por padrões simétricos.  
+Grupos de simetria descrevem as simetrias de objetos.  
+Exemplo: a simetria de espelho é representada pelo grupo Z/2Z.  
+Borboletas e figuras como o teste de Rorschach exibem essa simetria.  
+Ondas do mar têm simetria de translação.  
+Fractais possuem autossimilaridade, um tipo especial de simetria.
+A matemática popular apresenta conceitos matemáticos sem jargão técnico.  
+É desafiadora por causa da abstração e da ansiedade matemática do público.  
+Abordagens eficazes incluem referências culturais e aplicações do cotidiano.
+O maior prêmio em matemática é a Medalha Fields, criada em 1936.  
+Ela é entregue a cada quatro anos a até quatro matemáticos com menos de 40 anos.  
+É considerada o “Nobel da Matemática”.  
+Outros prêmios de destaque incluem:  
+O Prêmio Abel, criado em 2002;
+A Medalha Chern, concedida desde 2010 pelo conjunto da obra;  
+O Prêmio Leroy P. Steele da AMS, desde 1970;  
+O Prêmio Wolf de Matemática, instituído em 1978.  
+Em 1900, David Hilbert listou 23 problemas fundamentais.  
+Até 2022, pelo menos 13 foram resolvidos.  
+Em 2000, foi lançada a lista dos “Problemas do Prêmio Millennium”.  
+Cada solução vale 1 milhão de dólares.  
+Apenas um deles foi resolvido até hoje: a Conjectura de Poincaré.
