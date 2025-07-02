@@ -1,6 +1,6 @@
 # TalkSmith
 
-Um chatbot de Aprendizado de Máquina que responde a perguntas em português usando técnicas de TF-IDF e BM25 sobre um corpus de texto.
+Um chatbot de Aprendizado de Máquina que responde a perguntas em português usando técnicas de TF-IDF e BM25 sobre um corpus de texto, agora com uma interface gráfica simples feita em `tkinter`.
 
 ---
 
@@ -14,6 +14,7 @@ Este projeto implementa um assistente de conversação simples em Python, capaz 
 - Informar sobre quem “inventou” a matemática.  
 - Buscar respostas relevantes no corpus usando **TF-IDF** (uni-grams e bi-grams) e, em caso de baixa similaridade, recorrer ao **BM25**.  
 - Normalizar texto (remoção de acentos, lematização e filtros de stopwords).
+- Interagir por meio de uma **interface gráfica amigável**, com design escuro, botões estilizados e rolagem automática da conversa.
 
 ---
 
@@ -34,8 +35,8 @@ Este projeto implementa um assistente de conversação simples em Python, capaz 
 
 1. **Clone** o repositório  
    ```bash
-   git clone https://github.com/seu-usuario/chat-ai-bot.git
-   cd chat-ai-bot
+   git clone https://github.com/seu-usuario/talksmith.git
+   cd talksmith
    ```
 
 2. **Crie e ative** um ambiente virtual
@@ -61,36 +62,21 @@ Este projeto implementa um assistente de conversação simples em Python, capaz 
 
 ---
 
-## Configuração de Ambiente
-
-Todos os parâmetros sensíveis (e.g. conexão com banco de dados) devem ficar em variáveis de ambiente. Copie o arquivo de exemplo e preencha os valores reais:
-
-```bash
-cp .env.example .env
-```
-
-`.env.example`:
-
-```dotenv
-# URL de conexão com o PostgreSQL
-DATABASE_URL=postgresql://<usuario>:<senha>@<host>:<porta>/<database>
-```
-
-> A variável `DATABASE_URL` é utilizada para gravação de logs, histórico de conversas ou análises avançadas (se implementadas no futuro).
-
----
-
 ## Estrutura do Projeto
 
-```
-chat-ai-bot/
-├── data.txt                # Corpus de texto (frases para consulta)
-├── requirements.txt        # Lista completa de dependências
-├── .env.example            # Exemplo de variáveis de ambiente
-├── bot.py                  # Script principal do chatbot
-└── utils/
-    ├── preprocess.py       # Funções de normalização e lematização
-    └── retrieval.py        # Implementação de TF-IDF, BM25 e geração de resposta
+```text
+talksmith/
+├── chat_ui.py             # Interface gráfica com tkinter
+├── data.txt               # Corpus de conhecimento em texto puro
+├── intents.py             # Regras manuais de intenções (saudação, definição etc)
+├── preprocessing.py       # Lematização, remoção de acentos e stopwords
+├── retrieval.py           # Implementação do TF-IDF, BM25 e busca
+├── requirements.txt       # Dependências do projeto
+├── README.md              # Documentação geral
+├── .env                   # Variáveis de ambiente (local)
+├── .env.example           # Modelo base de .env
+├── .gitignore             # Arquivos ignorados no Git
+└── venv/                  # Ambiente virtual (local)
 ```
 
 ---
@@ -109,31 +95,33 @@ chat-ai-bot/
 3. **Índices de Pesquisa**
 
    * **TF-IDF** com n-grams (uni-grams e bi-grams), filtrando termos muito frequentes ou raros.
-   * **BM25** como fallback para garantirmos respostas mesmo em consultas não cobertas pelo TF-IDF.
+   * **BM25** como fallback para consultas menos comuns.
 
 4. **Geração de Resposta**
 
-   * Verifica saudações, pedidos de definição, listagem de matérias e perguntas sobre quem “inventou” a matemática.
-   * Em seguida, realiza busca nos índices (TF-IDF → BM25).
-   * Caso nada seja encontrado acima do limiar, retorna mensagem padrão de “sem resposta clara”.
+   * Verifica intenções manuais (saudações, definição, tópicos etc.).
+   * Se necessário, usa recuperação de similaridade textual (TF-IDF → BM25).
+   * Caso não encontre resposta com confiança, exibe uma mensagem padrão.
 
-5. **Loop Interativo**
+5. **Interface Gráfica com `tkinter`**
 
-   * Exibe prompt no terminal, aguarda entrada do usuário e responde até que seja digitado “bye”.
+   * Interface escura e responsiva.
+   * Campo de entrada + botão de envio.
+   * Área de chat com rolagem e destaque visual entre usuário e bot.
 
 ---
 
 ## Uso
 
-Execute o bot:
+Execute a interface gráfica:
 
 ```bash
-python bot.py
+python chat_ui.py
 ```
 
-* Digite perguntas em português.
+* Digite perguntas diretamente no campo inferior.
+* Pressione Enter ou clique em “Enviar”.
 * Para sair, digite `bye`.
-* Para agradecimentos, o bot responde automaticamente.
 
 ---
 
