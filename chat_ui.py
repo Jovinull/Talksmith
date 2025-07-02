@@ -4,6 +4,7 @@ from nltk import sent_tokenize
 
 from retrieval import Retriever
 import intents
+from bot_engine import BotEngine
 
 
 def load_corpus(path: str) -> list[str]:
@@ -16,10 +17,8 @@ class ChatUI:
     def __init__(self, corpus_path: str, k: int = 3, threshold: float = 0.1):
         self.sentences = load_corpus(corpus_path)
         self.retriever = Retriever(self.sentences)
-        self.k = k
-        self.threshold = threshold
+        self.bot = BotEngine(self.retriever, self.sentences, k, threshold)
 
-        # Cores e fontes
         self.bg_color = "#2e2e2e"
         self.chat_bg = "#1e1e1e"
         self.input_bg = "#3e3e3e"
@@ -78,31 +77,12 @@ class ChatUI:
 
         if user_input.lower() == "bye":
             self.display_message("Bot", "Até mais!")
+            self.bot.save_history_to_file()
             self.window.quit()
             return
 
-        response = self.get_response(user_input)
+        response = self.bot.get_response(user_input, intents)
         self.display_message("Bot", response)
-
-    def get_response(self, user: str) -> str:
-        if user.lower() in {'obrigado', 'obrigada', 'valeu'}:
-            return "De nada!"
-
-        resp = (intents.respond_greeting(user) or
-                intents.find_definition(user, self.sentences) or
-                intents.list_topics(user) or
-                intents.inventor_math(user))
-
-        if not resp:
-            tfidf_ans = self.retriever.top_k_tfidf(user, k=self.k, threshold=self.threshold)
-            resp = '\n'.join(tfidf_ans) if tfidf_ans else None
-        if not resp:
-            bm25_ans = self.retriever.top_k_bm25(user, k=self.k)
-            resp = '\n'.join(bm25_ans) if bm25_ans else None
-        if not resp:
-            resp = "Desculpe, não encontrei uma resposta clara para isso."
-
-        return resp
 
     def run(self):
         self.window.mainloop()
