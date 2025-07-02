@@ -2,7 +2,6 @@ from datetime import datetime
 import json
 import random
 
-
 class BotEngine:
     def __init__(self, retriever, sentences, k=3, threshold=0.1, history_path="history.json"):
         self.retriever = retriever
@@ -20,24 +19,46 @@ class BotEngine:
         ]
 
     def get_response(self, user_input, intents):
-        if user_input.lower() in {'obrigado', 'obrigada', 'valeu'}:
+        ui = user_input.strip()
+        # despedida
+        if ui.lower() in {'obrigado', 'obrigada', 'valeu'}:
             return "De nada!"
 
-        resp = (intents.respond_greeting(user_input) or
-                intents.find_definition(user_input, self.sentences) or
-                intents.list_topics(user_input) or
-                intents.inventor_math(user_input))
+        # 1) Intents simples
+        resp = (intents.respond_greeting(ui) or
+                intents.find_definition(ui, self.sentences) or
+                intents.list_topics(ui) or
+                intents.inventor_math(ui))
 
+        # 2) se nada, usa histórico + TF-IDF
         if not resp:
-            tfidf_ans = self.retriever.top_k_tfidf(user_input, k=self.k, threshold=self.threshold)
+            # concatena último user + current para contexto
+            if self.history:
+                last_user = self.history[-1]["user"]
+                query = f"{last_user} {ui}"
+            else:
+                query = ui
+
+            tfidf_ans = self.retriever.top_k_tfidf(query, k=self.k, threshold=self.threshold)
             resp = '\n'.join(tfidf_ans) if tfidf_ans else None
+
+        # 3) se ainda nada, BM25
         if not resp:
-            bm25_ans = self.retriever.top_k_bm25(user_input, k=self.k)
+            if self.history:
+                last_user = self.history[-1]["user"]
+                query = f"{last_user} {ui}"
+            else:
+                query = ui
+
+            bm25_ans = self.retriever.top_k_bm25(query, k=self.k)
             resp = '\n'.join(bm25_ans) if bm25_ans else None
+
+        # 4) fallback
         if not resp:
             resp = random.choice(self.default_responses)
 
-        self._save_to_history(user_input, resp)
+        # salva histórico
+        self._save_to_history(ui, resp)
         return resp
 
     def _save_to_history(self, user_text, bot_text):
