@@ -1,72 +1,93 @@
+from __future__ import annotations
+
 from datetime import datetime
 import json
 import random
 
+from retrieval import Retriever
+import intents
+
+
 class BotEngine:
-    def __init__(self, retriever, sentences, k=3, threshold=0.1, history_path="history.json"):
+    def __init__(
+        self,
+        retriever: Retriever,
+        k: int = 3,
+        threshold: float = 0.18,
+        history_path: str = "history.json",
+    ):
         self.retriever = retriever
-        self.sentences = sentences
         self.k = k
         self.threshold = threshold
-        self.history = []
+        self.history: list[dict] = []
         self.history_path = history_path
 
         self.default_responses = [
-            "Hmm... não tenho uma resposta clara para isso agora.",
-            "Desculpe, não consegui entender muito bem. Pode reformular?",
-            "Essa passou batido por mim! Tente perguntar de outro jeito 😊",
-            "Ainda não aprendi sobre isso, mas estou sempre tentando melhorar!"
+            "Hmm... não encontrei um trecho bom no meu material para isso. Pode perguntar de outro jeito?",
+            "Não consegui conectar sua pergunta com o conteúdo que eu tenho aqui. Pode reformular?",
+            "Essa eu não achei no texto. Tente ser mais específico no termo/assunto 😊",
         ]
 
-    def get_response(self, user_input, intents):
-        ui = user_input.strip()
-        # despedida
-        if ui.lower() in {'obrigado', 'obrigada', 'valeu'}:
+    def get_response(self, user_input: str) -> str:
+        ui = (user_input or "").strip()
+        if not ui:
+            return random.choice(self.default_responses)
+
+        if ui.lower() in {"obrigado", "obrigada", "valeu"}:
             return "De nada!"
 
-        # 1) Intents simples
-        resp = (intents.respond_greeting(ui) or
-                intents.find_definition(ui, self.sentences) or
-                intents.list_topics(ui) or
-                intents.inventor_math(ui))
+        # Intents “rápidos”
+        resp = (
+            intents.respond_greeting(ui)
+            or intents.inventor_math(ui)
+            or intents.list_topics(ui)
+            or intents.find_definition(ui, self.retriever)
+        )
 
-        # 2) se nada, usa histórico + TF-IDF
+        # Retrieval híbrido (com histórico simples)
         if not resp:
-            # concatena último user + current para contexto
-            if self.history:
-                last_user = self.history[-1]["user"]
-                query = f"{last_user} {ui}"
+            query = self._build_query(ui)
+            hits = self.retriever.top_k_hybrid(query, k=self.k, threshold=self.threshold)
+
+            if hits:
+                resp = self._compose_answer(hits)
             else:
-                query = ui
+                resp = random.choice(self.default_responses)
 
-            tfidf_ans = self.retriever.top_k_tfidf(query, k=self.k, threshold=self.threshold)
-            resp = '\n'.join(tfidf_ans) if tfidf_ans else None
-
-        # 3) se ainda nada, BM25
-        if not resp:
-            if self.history:
-                last_user = self.history[-1]["user"]
-                query = f"{last_user} {ui}"
-            else:
-                query = ui
-
-            bm25_ans = self.retriever.top_k_bm25(query, k=self.k)
-            resp = '\n'.join(bm25_ans) if bm25_ans else None
-
-        # 4) fallback
-        if not resp:
-            resp = random.choice(self.default_responses)
-
-        # salva histórico
         self._save_to_history(ui, resp)
         return resp
 
-    def _save_to_history(self, user_text, bot_text):
-        self.history.append({
-            "timestamp": datetime.now().isoformat(),
-            "user": user_text,
-            "bot": bot_text
-        })
+    def _build_query(self, ui: str) -> str:
+        if not self.history:
+            return ui
+
+        last_user = self.history[-1].get("user", "")
+        # contexto leve: última pergunta + atual
+        return f"{last_user} {ui}".strip()
+
+    def _compose_answer(self, hits: list[str]) -> str:
+        # resposta mais “inteira”: 1 trecho principal + 1 complemento (se existir)
+        if not hits:
+            return random.choice(self.default_responses)
+
+        main = hits[0].strip()
+
+        if len(hits) >= 2:
+            extra = hits[1].strip()
+            # evita repetir se for muito parecido
+            if extra and extra != main:
+                return f"{main}\n\n{extra}"
+
+        return main
+
+    def _save_to_history(self, user_text: str, bot_text: str):
+        self.history.append(
+            {
+                "timestamp": datetime.now().isoformat(),
+                "user": user_text,
+                "bot": bot_text,
+            }
+        )
 
     def save_history_to_file(self):
         if self.history:
